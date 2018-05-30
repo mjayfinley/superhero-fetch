@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+
+#heading {
+  font-family: sans-serif;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+}
+
+#movieDetails {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 100%;
+
+}
+
+.moviePoster {
+  display:flex;
+  height: 200px;
+  width: 150px;
+  padding: 10px;
+  float: left;
+
+}
+
+.movieDescription {
+  display:flex;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+
+}
+
+.movieFactsContainer{
+  position: sticky;
+  top: 0px;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white
+
+}
+
+#indepthDetails {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 100%;
+
+}
